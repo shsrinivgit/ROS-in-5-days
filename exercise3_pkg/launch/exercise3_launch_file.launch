@@ -1,0 +1,5 @@
+<launch>
+  <!-- moving the robot -->
+  <node pkg="exercise3_pkg" type="simple_topic_publisher.py" name="Move_robot" output="screen">
+  </node>
+</launch>
