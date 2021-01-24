@@ -1,0 +1,5 @@
+<launch>
+  <!-- Odometry robot -->
+  <node pkg="exercise_4" type="exer_4_2.py" name="robot_odometry" output="screen">
+  </node>
+</launch>
