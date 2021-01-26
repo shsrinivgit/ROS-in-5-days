@@ -1,0 +1,7 @@
+<launch>
+    <node pkg = 'unit7_exer_P1'
+        type = 'move_bb8_timed_server.py'
+        name = 'service_move_bb8_in_circle_server'
+        output = 'screen'>
+    </node>
+</launch>
