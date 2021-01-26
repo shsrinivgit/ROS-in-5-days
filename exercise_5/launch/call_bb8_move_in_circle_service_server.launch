@@ -1,0 +1,7 @@
+<launch>
+    <node pkg = "exercise_5"
+        type = "bb8_move_in_circle_service_client.py"
+        name = "service_client"
+        output = "screen">
+    </node>
+</launch>
