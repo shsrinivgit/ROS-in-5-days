@@ -1,0 +1,7 @@
+<launch>
+    <node pkg = 'unit9_pkg'
+        type = 'move_drone_in_square_action_server.py'
+        name = 'drone_sqr'
+        output = 'screen'>
+    </node>
+</launch>
