@@ -1,0 +1,7 @@
+<launch>
+    <node pkg = 'unit10_logger_pkg'
+        type = 'exer9_3_simple_topic_subscriber.py'
+        name = 'simple_sub'
+        output = 'screen'>
+    </node>
+</launch>

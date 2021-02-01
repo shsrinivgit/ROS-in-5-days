@@ -1,0 +1,7 @@
+<launch>
+    <node pkg = 'unit10_logger_pkg'
+        type = 'exer9_3_simple_topic_publisher.py'
+        name = 'simple_pub'
+        output = 'screen'>
+    </node>
+</launch>

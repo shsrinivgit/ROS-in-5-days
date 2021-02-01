@@ -1,0 +1,7 @@
+<launch>
+    <node pkg = 'unit10_logger_pkg'
+        type = 'logger_example.py'
+        name = 'log_demo'
+        output = 'screen'>
+    </node>
+</launch>
