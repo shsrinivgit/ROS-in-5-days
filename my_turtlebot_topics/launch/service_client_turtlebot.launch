@@ -1,0 +1,8 @@
+<launch>
+    <include file="$(find my_turtlebot_topics)/launch/service_server_turtlebot.launch"/>
+    <node pkg = 'my_turtlebot_topics'
+        type = 'service_client_move_turtlebot.py'
+        name = 'service_cli'
+        output = 'screen'>
+    </node>
+</launch>

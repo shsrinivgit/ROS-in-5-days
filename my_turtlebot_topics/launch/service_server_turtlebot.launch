@@ -1,0 +1,7 @@
+<launch>
+    <node pkg = 'my_turtlebot_topics'
+        type = 'service_server_move_turtlebot.py'
+        name = 'service_serv'
+        output = 'screen'>
+    </node>
+</launch>
